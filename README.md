@@ -2,9 +2,9 @@
 
 ## Syllabus
 1. Control Systems Introduction and Python Simulation. (4 Hours)
-2. Design of PID controllers and implementation on STM32 microcontrollers and ROS2. (4 Hours)
-3. Introduction to ROS2 and its applications in Control systems. (2 Hours)
-4. Setting up the ROS2 and Python environment. (2 Hours)
+2. Introduction to ROS2 and its applications in Control systems. (2 Hours)
+3. Setting up the ROS2 and Python environment. (2 Hours)
+4. Design of PID controllers and implementation with ROS2. (4 Hours)
 5. Hands-on session: Building a simple ROS2 node for a control system application. (4 Hours)
 6. Hands-on session: Implementing a PID controller with controlsim and ROS2. (4 Hours)
 7. Introduction to CMSIS 2 and RTOS for real-time control applications. (4 Hours)
