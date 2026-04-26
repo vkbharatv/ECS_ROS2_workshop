@@ -1,4 +1,19 @@
 # ECS ROS2 Workshop
+
+## Syllabus
+1. Control Systems Introduction and Python Simulation. (4 Hours)
+2. Design of PID controllers and implementation on STM32 microcontrollers and ROS2. (4 Hours)
+3. Introduction to ROS2 and its applications in Control systems. (2 Hours)
+4. Setting up the ROS2 and Python environment. (2 Hours)
+5. Hands-on session: Building a simple ROS2 node for a control system application. (4 Hours)
+6. Hands-on session: Implementing a PID controller with controlsim and ROS2. (4 Hours)
+7. Introduction to CMSIS 2 and RTOS for real-time control applications. (4 Hours)
+8. Hands-on session: Implementing a PID controller on STM32 microcontrollers using CMSIS 2 and RTOS. (4 Hours)
+9. Data publishing and subscribing methods to exchange data between ROS2 and STM32 microcontrollers. (4 Hours)
+10. Additional topics: Model-based design, Simulink, and ROS2 integration. (2 Hours)
+11. A Project-based learning session where participants will work on a control system project using ROS2 and STM32 microcontrollers. (4 Hours)
+12. Q&A and troubleshooting session. (2 Hours)
+
 ## ROS2 and Python Environment Setup Instructions
 Operating System: Ubuntu 24.04 LTS or Windows WSL with Ubuntu 24.04 LTS
 (Note: The setup instructions are tested for Ubuntu 24.04 LTS, but they can also be followed on Windows WSL with Ubuntu 24.04 LTS)
