@@ -2,12 +2,14 @@
 ## ROS2 and Python Environment Setup Instructions
 Operating System: Ubuntu 24.04 or Windows WSL with Ubuntu 24.04
 
-Install the requirements for the workshop with the following command:
+Run the following command in your ubuntu terminal to set up the ROS2 and Python environment for the workshop. This command will will install all thre rquired dependencies for the workshop, including ROS2 Jazzy, Python virtual environment, and other necessary tools.:
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup.sh)"
 
 ```
+
+
 
 ## STM32CubeMX Installation Instructions
 1. Go to the [STM32CubeMX website](https://www.st.com/en/development-tools/stm32cubemx.html) and download the latest version of STM32CubeMX for your operating system.
