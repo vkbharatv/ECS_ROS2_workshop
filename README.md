@@ -6,9 +6,7 @@ Run the following command in your ubuntu terminal to set up the ROS2 and Python 
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup.sh)"
-
 ```
-
 
 
 ## STM32CubeMX Installation Instructions
