@@ -28,6 +28,7 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_works
 ## STM32CubeMX Installation Instructions
 1. Go to the [STM32CubeMX website](https://www.st.com/en/development-tools/stm32cubemx.html) and download the latest version of STM32CubeMX for your operating system.
 2. Follow the installation instructions provided on the website to install STM32CubeMX on your computer.
+3. After installing STM32CubeMX, you may need to install the necessary toolchains and drivers for your STM32 microcontroller. In this workshop, we will be using the STM32F4 and STM32F7 series. Install the appropriate toolchains and drivers for your specific STM32 microcontroller as needed.
 
 ## VSCode Installation Instructions
 1. Go to the [Visual Studio Code website](https://code.visualstudio.com/) and download the latest version of Visual Studio Code for your operating system.
