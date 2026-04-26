@@ -6,7 +6,7 @@
 3. Setting up the ROS2 and Python environment. (2 Hours)
 4. Design of PID controllers and implementation with ROS2. (4 Hours)
 5. Hands-on session: Building a simple ROS2 node for a control system application. (4 Hours)
-6. Hands-on session: Implementing a PID controller with controlsim and ROS2. (4 Hours)
+6. Hands-on session: Implementing a PID controller with controlsim and ROS2 (topics, services). (4 Hours)
 7. Introduction to CMSIS 2 and RTOS for real-time control applications. (4 Hours)
 8. Hands-on session: Implementing a PID controller on STM32 microcontrollers using CMSIS 2 and RTOS. (4 Hours)
 9. Data publishing and subscribing methods to exchange data between ROS2 and STM32 microcontrollers. (4 Hours)
