@@ -3,7 +3,7 @@
 Operating System: Ubuntu 24.04 LTS or Windows WSL with Ubuntu 24.04 LTS
 (Note: The setup instructions are tested for Ubuntu 24.04 LTS, but they can also be followed on Windows WSL with Ubuntu 24.04 LTS)
 
-Run the following command in your ubuntu terminal to set up the ROS2 and Python environment for the workshop. This command will will install all thre rquired dependencies for the workshop, including ROS2 Jazzy, Python virtual environment, and other necessary tools.:
+Run the following command in your ubuntu terminal to set up the ROS2 and Python environment for the workshop and follow the prompts. This command will install all the required dependencies for the workshop, including ROS2 Jazzy, Python virtual environment, and other necessary tools.:
 
 ```bash
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup.sh)"
