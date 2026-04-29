@@ -24,6 +24,19 @@ Run the following command in your ubuntu terminal to set up the ROS2 and Python 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup.sh)"
 ```
 
+## Full Uninstall (Clean Removal)
+To remove the full workshop environment (ROS 2 Jazzy, Gazebo integration, MoveIt, rosdep init state, and the `~/.venv` created by setup), run:
+
+```bash
+bash full_uninstall.sh
+```
+
+For non-interactive removal:
+
+```bash
+bash full_uninstall.sh --yes
+```
+
 
 ## STM32CubeMX Installation Instructions
 1. Go to the [STM32CubeMX website](https://www.st.com/en/development-tools/stm32cubemx.html) and download the latest version of STM32CubeMX for your operating system.
