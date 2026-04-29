@@ -14,6 +14,10 @@ PACKAGES=(
     libfuse2
     libzbar0
     python3-tk
+python3-dev
+python3-pip
+    colcon
+
 )
 
 for package in "${PACKAGES[@]}"; do
@@ -42,7 +46,6 @@ pip install --upgrade pip
 pip install numpy pyzbar matplotlib sympy xlsxwriter pandas
 pip install stable_baselines3 selenium pytesseract
 pip install pyqt5 pyqtgraph pyzbar pyyaml 
-pip install tensorflow tensorboard tensorboardx
 pip install openpyxl
 pip install opencv-python
 pip install pdf2image lxml
@@ -74,8 +77,10 @@ curl -L -o /tmp/ros2-apt-source.deb "https://github.com/ros-infrastructure/ros-a
 sudo dpkg -i /tmp/ros2-apt-source.deb
 
 sudo apt update && sudo apt install ros-jazzy-desktop -y
+sudo apt install ros-jazzy-ros-gz
 
 if ! grep -Fxq "source /opt/ros/jazzy/setup.bash" "$HOME/.bashrc"; then
     echo "source /opt/ros/jazzy/setup.bash" >> "$HOME/.bashrc"
 fi
+
 source /opt/ros/jazzy/setup.bash
