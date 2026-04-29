@@ -102,10 +102,8 @@ python -m pip install \
     pdf2image \
     pyqt5 \
     pyqtgraph \
-    pytesseract \
     pyyaml \
     pyzbar \
-    selenium \
     stable-baselines3 \
     sympy \
     typeguard \
@@ -122,6 +120,6 @@ echo "Setup complete. Open a new terminal or run:"
 echo "source /opt/ros/jazzy/setup.bash"
 echo
 echo "Quick checks:"
-echo "  ros2 --version"
+echo "  ros2 topic list"
 echo "  rviz2"
 echo "  ros2 launch ros_gz_sim gz_sim.launch.py"
