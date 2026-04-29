@@ -40,15 +40,13 @@ sudo apt install -y \
     python3-pip \
     python3-tk \
     python3-venv \
-    python3-colcon-common-extensions \
-    python3-rosdep \
     software-properties-common \
     tesseract-ocr \
     unzip \
     wget \
-    libfuse2 \
+    libfuse2t64 \
     libzbar-dev \
-    libzbar0
+    libzbar0t64
 
 echo "[3/7] Locale + apt source prep"
 sudo locale-gen en_US en_US.UTF-8
@@ -63,6 +61,9 @@ sudo dpkg -i /tmp/ros2-apt-source.deb
 rm -f /tmp/ros2-apt-source.deb
 
 sudo apt update
+sudo apt install -y \
+    python3-colcon-common-extensions \
+    python3-rosdep
 
 echo "[4/7] Install ROS 2 Jazzy + RViz + Gazebo + MoveIt"
 sudo apt install -y \

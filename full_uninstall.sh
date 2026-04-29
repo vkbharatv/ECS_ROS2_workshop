@@ -56,9 +56,9 @@ sudo apt purge -y \
     python3-rosdep \
     tesseract-ocr \
     libzbar-dev \
-    libzbar0 \
+    libzbar0t64 \
     python3-tk \
-    libfuse2 || true
+    libfuse2t64 || true
 
 echo "[3/8] Removing ROS apt source package leftovers"
 if dpkg -s ros2-apt-source >/dev/null 2>&1; then
