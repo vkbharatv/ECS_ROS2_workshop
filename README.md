@@ -25,7 +25,7 @@ Operating System: Ubuntu 24.04 LTS or Windows WSL with Ubuntu 24.04 LTS
 Run the following command in your ubuntu terminal to set up the ROS2 and Python environment for the workshop and follow the prompts. This command will install all the required dependencies for the workshop, including ROS2 Jazzy, Python virtual environment, and other necessary tools.:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup.sh | bash
+curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup_jazzy.sh | bash
 ```
 
 ### For Ubuntu 26.04 LTS or Windows WSL with Ubuntu 26.04 LTS and ROS2 Lyrical Luth
@@ -34,7 +34,8 @@ Operating System: Ubuntu 26.04 LTS or Windows WSL with Ubuntu 26.04 LTS and ROS2
 (Note: The setup instructions are tested for Ubuntu 26.04 LTS, but they can also be followed on Windows WSL with Ubuntu 26.04 LTS)
 Run the following command in your ubuntu terminal to set up the ROS2 and Python environment for the workshop and follow the prompts. This command will install all the required dependencies for the workshop, including ROS2 Lyrical Luth, Python virtual environment, and other necessary tools.:
 
-```bashcurl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup_lyrical.sh | bash
+```bash
+curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup_lyrical.sh | bash
 ```
 
 ## Full Uninstall (Clean Removal)
