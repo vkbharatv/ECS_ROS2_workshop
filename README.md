@@ -1,6 +1,7 @@
 # ECS ROS2 Workshop
 
 ## Syllabus
+
 1. Control Systems Introduction and Python Simulation. (4 Hours)
 2. Introduction to ROS2 and its applications in Control systems. (2 Hours)
 3. Setting up the ROS2 and Python environment. (2 Hours)
@@ -15,6 +16,9 @@
 12. Q&A and troubleshooting session. (2 Hours)
 
 ## ROS2 and Python Environment Setup Instructions
+
+### For Ubuntu 24.04 LTS or Windows WSL with Ubuntu 24.04 LTS
+
 Operating System: Ubuntu 24.04 LTS or Windows WSL with Ubuntu 24.04 LTS
 (Note: The setup instructions are tested for Ubuntu 24.04 LTS, but they can also be followed on Windows WSL with Ubuntu 24.04 LTS)
 
@@ -24,7 +28,17 @@ Run the following command in your ubuntu terminal to set up the ROS2 and Python 
 curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup.sh | bash
 ```
 
+### For Ubuntu 26.04 LTS or Windows WSL with Ubuntu 26.04 LTS and ROS2 Lyrical Luth
+
+Operating System: Ubuntu 26.04 LTS or Windows WSL with Ubuntu 26.04 LTS and ROS2 Lyrical Luth
+(Note: The setup instructions are tested for Ubuntu 26.04 LTS, but they can also be followed on Windows WSL with Ubuntu 26.04 LTS)
+Run the following command in your ubuntu terminal to set up the ROS2 and Python environment for the workshop and follow the prompts. This command will install all the required dependencies for the workshop, including ROS2 Lyrical Luth, Python virtual environment, and other necessary tools.:
+
+```bashcurl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/min_setup_lyrical.sh | bash
+```
+
 ## Full Uninstall (Clean Removal)
+
 To remove the full workshop environment (ROS 2 Jazzy, Gazebo integration, MoveIt, rosdep init state, and the `~/.venv` created by setup), run:
 
 ```bash
@@ -37,17 +51,19 @@ For non-interactive removal:
 bash full_uninstall.sh --yes
 ```
 
-
 ## STM32CubeMX Installation Instructions
+
 1. Go to the [STM32CubeMX website](https://www.st.com/en/development-tools/stm32cubemx.html) and download the latest version of STM32CubeMX for your operating system.
 2. Follow the installation instructions provided on the website to install STM32CubeMX on your computer.
 3. After installing STM32CubeMX, you may need to install the necessary toolchains and drivers for your STM32 microcontroller. In this workshop, we will be using the STM32F4 and STM32F7 series. Install the appropriate toolchains and drivers for your specific STM32 microcontroller as needed.
 
 ## VSCode Installation Instructions
+
 1. Go to the [Visual Studio Code website](https://code.visualstudio.com/) and download the latest version of Visual Studio Code for your operating system.
 2. Follow the installation instructions provided on the website to install Visual Studio Code on your computer.
 
 ### STM32CubeMX Extension for VSCode
+
 1. Open Visual Studio Code.
 2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
 3. In the search bar, type "STM32Cube" and press Enter.
@@ -55,6 +71,7 @@ bash full_uninstall.sh --yes
 5. After the extension is installed, you may be asked to install additional dependencies. Follow the prompts to complete the installation process.
 
 ## ROS2 Extension for VSCode (Optional)
+
 1. Open Visual Studio Code.
 2. Go to the Extensions view by clicking on the Extensions icon in the Activity Bar on the side of the window or by pressing `Ctrl+Shift+X`.
 3. In the search bar, type "ROS2" and press Enter.
