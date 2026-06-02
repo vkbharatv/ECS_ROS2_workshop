@@ -43,14 +43,9 @@ curl -fsSL https://raw.githubusercontent.com/vkbharatv/ECS_ROS2_workshop/main/mi
 To remove the full workshop environment (ROS 2 Jazzy, Gazebo integration, MoveIt, rosdep init state, and the `~/.venv` created by setup), run:
 
 ```bash
-bash full_uninstall.sh
+curl -fsSL https://github.com/vkbharatv/ECS_ROS2_workshop/blob/main/full_uninstall.sh | bash
 ```
 
-For non-interactive removal:
-
-```bash
-bash full_uninstall.sh --yes
-```
 
 ## STM32CubeMX Installation Instructions
 
