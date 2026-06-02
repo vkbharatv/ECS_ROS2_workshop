@@ -11,7 +11,7 @@ fi
 
 echo "==============================================="
 echo "ECS ROS2 Workshop - Full Uninstall (Ubuntu 24.04)"
-echo "This will remove ROS 2 Jazzy, Gazebo bridge, MoveIt,"
+echo "This will remove ROS 2 Jazzy/Lyrical, Gazebo bridge, MoveIt,"
 echo "workshop apt packages, rosdep setup, and ~/.venv."
 echo "==============================================="
 
@@ -45,9 +45,10 @@ confirm() {
 
 confirm
 
-echo "[1/8] Removing ROS 2 Jazzy, MoveIt, Gazebo integration"
+echo "[1/8] Removing ROS 2 Jazzy/Lyrical, MoveIt, Gazebo integration"
 sudo apt purge -y \
     'ros-jazzy-*' \
+    'ros-lyrical-*' \
     ros2-apt-source || true
 
 echo "[2/8] Removing workshop tooling packages"
@@ -89,6 +90,11 @@ fi
 echo "[7/8] Removing shell setup lines"
 if [[ -f "$HOME/.bashrc" ]]; then
     sed -i '/^source \/opt\/ros\/jazzy\/setup\.bash$/d' "$HOME/.bashrc"
+    sed -i '/^source \/opt\/ros\/lyrical\/setup\.bash$/d' "$HOME/.bashrc"
+fi
+if [[ -f "$HOME/.zshrc" ]]; then
+    sed -i '/^source \/opt\/ros\/jazzy\/setup\.bash$/d' "$HOME/.zshrc"
+    sed -i '/^source \/opt\/ros\/lyrical\/setup\.bash$/d' "$HOME/.zshrc"
 fi
 
 echo "[8/8] Autoremove and clean apt cache"
