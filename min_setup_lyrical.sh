@@ -4,10 +4,10 @@ set -euo pipefail
 
 export DEBIAN_FRONTEND=noninteractive
 
-echo "========================================"
+echo "============================================="
 echo "Ubuntu 26.04 + ROS 2 Lyrical Luth full setup"
-echo "(Gazebo, RViz, MoveIt, tooling)"
-echo "========================================"
+echo "(Gazebo, RViz, tooling)"
+echo "============================================="
 
 if [[ -f /etc/os-release ]]; then
     . /etc/os-release
